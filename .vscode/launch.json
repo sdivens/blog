@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DirList",
+            "request": "launch",
+            "mainClass": "DirList"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RegexMatches",
+            "request": "launch",
+            "mainClass": "RegexMatches"
+        }
+    ]
+}
