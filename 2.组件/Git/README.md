@@ -6,7 +6,7 @@
     - 症状：在默认设置下，中文文件名在工作区状态输出，中文名不能正确显示，而是显示为八进制的字符编码。
     - 解决：
     - > git config --global core.quotepath false
-    - ![截图](../assets/7DE3E1EA-9746-4475-BF52-FC1ECB867277.png)
+    - ![截图](./assets/7DE3E1EA-9746-4475-BF52-FC1ECB867277.png)
 
 - git 中文乱码问题
     - 修改gitconfig配置文件： 
