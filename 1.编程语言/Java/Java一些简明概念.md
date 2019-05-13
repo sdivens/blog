@@ -214,3 +214,78 @@ Blocking IO： 同步阻塞的编程方式。
  * (${param})${field}
  */
 ```
+
+# Java 8 新特性
+
+- java 8 Lambda表达式
+```java
+(parameters) -> expression;
+或
+(parameters) -> {expression;}
+- 可选的类型声明
+- 可选的参数圆括号
+- 可选的大括号
+- 可选的反正关键字
+
+> 例如
+() -> 5;
+x -> x + 5;
+(x, y) -> x - y;
+(int x, int y) -> x + y
+(String s ) -> System.out.print(s)
+
+
+lambda 表达式只能引用标记了final的外层局部变量，不能在lambda内部修改定义在域外的局部变量。
+```
+
+- Java 8 方法引用
+```java
+构造器引用：Class<T>::new
+> final Car car = Car.create(Car::new;)
+> final List<Car> cars = Arrays.asList(car);
+
+静态方法引用：语法Class::static_method
+>cars.forEach( Car::collide );
+
+特定类的任意方法引用：Class::method
+>cars.forEach( Car::repair );
+
+特定对象的方法引用：
+> final Car police = Car.create( Car::new);
+> cars.forEach( police::follow );
+```
+
+- Java 8 函数式接口
+>函数式接口(Functional Interface)就是一个有且仅有一个抽象方法，但是可以有多个非抽象方法的接口。
+
+- Java 8 新增接口的默认方法
+```java
+首先，之前的接口是个双刃剑，好处是面向抽象而不是面向具体编程，缺陷是，当需要修改接口时候，需要修改全部实现该接口的类，目前的 java 8 之前的集合框架没有 foreach 方法，通常能想到的解决办法是在JDK里给相关的接口添加新的方法及实现。然而，对于已经发布的版本，是没法在给接口添加新方法的同时不影响已有的实现。所以引进的默认方法。他们的目的是为了解决接口的修改与现有的实现不兼容的问题。
+```
+
+- Java 8 Stream
+```java
+Stream（流）是一个来自数据源的元素队列并支持聚合操作
+- 元素是特定类型的对象，形成一个队列。 Java中的Stream并不会存储元素，而是按需计算。
+- 数据源 流的来源。 可以是集合，数组，I/O channel， 产生器generator 等。
+- 聚合操作 类似SQL语句一样的操作， 比如filter, map, reduce, find, match, sorted等。
+
+和以前的Collection操作不同， Stream操作还有两个基础的特征：
+
+- Pipelining: 中间操作都会返回流对象本身。 这样多个操作可以串联成一个管道， 如同流式风格（fluent style）。 这样做可以对操作进行优化， 比如延迟执行(laziness)和短路( short-circuiting)。
+
+- 内部迭代： 以前对集合遍历都是通过Iterator或者For-Each的方式, 显式的在集合外部进行迭代， 这叫做外部迭代。 Stream提供了内部迭代的方式， 通过访问者模式(Visitor)实现。
+```
+    - forEach
+    - map
+    - filter
+    - limit
+    - sorted
+    - stream / parallelStream
+    - collect
+    - count
+    - sum
+    - summaryStatistics
+    - 等等。
+
+- Java.time
