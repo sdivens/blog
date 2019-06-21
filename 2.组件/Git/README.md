@@ -25,3 +25,54 @@
             quotepath = false 
             # status引用路径不再是八进制（反过来说就是允许显示中文了）
         ```
+
+# git submodule git的子项目管理  
+
+> 有时需要建立一个父项目，来统一管理各个子项目，进行版本兼容性测试，统一发布，统一编排等等。
+```bash
+git submodule add/status/init/deinit/summary/foreach/sync/
+
+# 添加子模块：
+git submodule add URL
+
+# 带有submodule的项目进行本地clone。
+git clone URL --recursive
+
+# 更新子模块：
+git submodule init/update
+git submodule update --init --recursive
+
+
+# 获取子模块更新：
+git submodule foreach git pull
+
+# 删除子模块：
+git rm --cached MODULENAME
+git -rf MODULENAME
+vim .git/config  # 中删除相关的submodule中的MODULENAME信息
+
+```
+
+# git fork后跟踪原始repo的方法
+> 有时自己需要fork别人的项目来进行一些定制化开发。一段时间后别人的项目也进行了bug修复和新功能开发，这时就需要跟踪并且合并到自己项目中。
+```bash
+git remote 命令添加多个远程仓库，然后进行远程仓库的本地化合并。
+
+# 查看远程仓库
+git remote -v
+
+# 添加远程仓库URL
+git remote add upstreamName URL
+
+# 更新远程仓库信息到本地。
+git fetch upstreamName
+
+# 合并远程仓库内容到本地分支。
+git checkout master  # 回到想要合并的分支。
+git merge upstreamName/master  # 合并更新内容。
+
+# 如果本地仓库和upstreamName仓库是自己fork，并且独立管理的，会出现报错：
+# Error: Git refusing to merge unrelated histories
+git merge upstreamName/master --allow-unrelated-histories
+
+```
