@@ -1,6 +1,7 @@
 # jenkins 
 ## 项目持续集成调度器
 
+```bash
 pipeline {
     agent any
     parameters {
@@ -32,3 +33,4 @@ pipeline {
         }
     }
 }
+```
