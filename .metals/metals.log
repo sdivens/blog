@@ -1,0 +1,3 @@
+INFO  time: initialize in 0.39s
+WARN  no build tool detected in workspace '/Users/work_space/github/blog'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/work_space/github/blog/1.????/Scala/assets/test.scala
