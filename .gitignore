@@ -1,3 +1,6 @@
 .vscode
 **/Test*
 **/.DS_Store
+**/.*
+.metals
+**/*.zip
