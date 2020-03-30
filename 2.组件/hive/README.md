@@ -20,3 +20,8 @@ SET hive.compactor.worker.threads=1;
 
 # Note: Add these properties in hive-site.xml to set them permanently.
 ```
+
+# 设置spark的内存
+```bash
+set spark.executor.memory=8g;
+```
