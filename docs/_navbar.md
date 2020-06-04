@@ -1,24 +1,33 @@
-* [首页](/README.md)
-* 编程语言
-    * [Java](/1.编程语言/Java/)
-    * [Markdown](/1.编程语言/MarkDown/)
-    * [Scala](/1.编程语言/Scala/)
-* 组件工具
-    * [Dgraph](/2.组件工具/Dgraph/)
-    * [Flink](/2.组件工具/Flink/)
-    * [Git](/2.组件工具/Git/)
-    * [Hive](/2.组件工具/Hive/)
-    * [Jenkins](/2.组件工具/Jenkins/)
-    * [Mysql](/2.组件工具/Mysql/)
-    * [Postgres](/2.组件工具/Postgres/)
-    * [Sqoop](/2.组件工具/Sqoop/)
-    * [Zookeeper](/2.组件工具/Zookeeper/)
-* 兴趣涉猎
-    * [安全攻防技能](/3.Hacker/安全攻防技能/) 
-    * [NLP实践高手课笔记](/3.Hacker/NLP实践高手课笔记/) 
-    * [人工智能基础学习](/3.Hacker/人工智能基础.md) 
-* 项目设计
-    * [服务架构](/4.项目设计/README.md)
-* 日常琐事
-    * [健身的日常](/5.日常随笔/健身的日常/)
-    * [喜欢炒股](/5.日常随笔/我喜欢炒股/)
+- [首页](/README.md)
+
+- 1.编程语言
+    - [Java_Java一些简明概念](1.编程语言/Java/Java一些简明概念)
+    - [Java_Java核心技术36讲笔记](1.编程语言/Java/Java核心技术36讲笔记)
+    - [Java](1.编程语言/Java/README)
+    - [Markdown](1.编程语言/Markdown/README)
+    - [Scala](1.编程语言/Scala/README)
+- 2.组件工具
+    - [Dgraph](2.组件工具/Dgraph/README)
+    - [Flink](2.组件工具/Flink/README)
+    - [Git](2.组件工具/Git/README)
+    - [Hive](2.组件工具/Hive/README)
+    - [Jenkins](2.组件工具/Jenkins/README)
+    - [Mysql](2.组件工具/Mysql/README)
+    - [Mysql_assets](2.组件工具/Mysql/assets)
+    - [Postgres](2.组件工具/Postgres/README)
+    - [README](2.组件工具/README/)
+    - [Sqoop](2.组件工具/Sqoop/README)
+    - [Zookeeper](2.组件工具/Zookeeper/README)
+- 3.Hacker
+    - [NLP实战高手课](3.Hacker/NLP实战高手课/README)
+    - [NLP实战高手课_assets](3.Hacker/NLP实战高手课/assets)
+    - [README](3.Hacker/README/)
+    - [人工智能基础](3.Hacker/人工智能基础/)
+    - [安全攻防技能_安全攻防技能](3.Hacker/安全攻防技能/安全攻防技能)
+- 4.项目设计
+    - [README](4.项目设计/README/)
+- 5.日常随笔
+    - [README](5.日常随笔/README/)
+    - [健身的日常](5.日常随笔/健身的日常/README)
+    - [健身的日常_哑铃自由器械动作](5.日常随笔/健身的日常/哑铃自由器械动作)
+    - [我喜欢炒股](5.日常随笔/我喜欢炒股/README)
