@@ -22,14 +22,16 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
       with:
-        ref: gh-pages
-
+        fetch-depth: 0
+  
     # Runs a single command using the runners shell
     - name: 修改bolg菜单
       run: |
-        git branch -a
+        git checkout gh-pages
+        git merge master
         echo "* [首页](/README.md) " > navbar.md
         find . -mindepth 2 -name "*.md" | awk -F'/' 'BEGIN {RS=".md"} {k=$3;if ($4=="" || $4=="README") k=$3;else k=$3"_"$3;arr[$2]=arr[$2]"\n    - ["k"]("$2"/"$3"/"$4")"} END { num = asorti(arr, indices); for (i=1; i<=num; ++i) if (indices[i]) print "- "indices[i], arr[indices[i]]}' >> navbar.md
+        git commit -am "生成navbar.md"
 
     # Runs a set of commands using the runners shell
     - name: 查看生成文件
