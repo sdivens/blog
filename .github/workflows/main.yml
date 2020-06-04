@@ -35,7 +35,7 @@ jobs:
         echo "${{ github.ref }}"
     
     - name: Push changes
-      uses: actions-go/push@v1
+      uses: ad-m/github-push-action@v0.6.0
       with:
-        commit-message: '动态生成navbar.md'
-        
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: 'gh-pages'
