@@ -41,7 +41,7 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         # Specify commit message
         commit-message: '自动生成navbar.md'
-        push-branch: gh-pages
+        push-branch: origin/gh-pages
 
     # Runs a set of commands using the runners shell
     - name: 查看生成文件
