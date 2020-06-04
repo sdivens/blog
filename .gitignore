@@ -1,6 +1,7 @@
 .vscode
 **/Test*
-**/.DS_Store
 **/.*
+**/.DS_Store
 .metals
 **/*.zip
+!docs/.nojekyll
