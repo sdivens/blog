@@ -30,7 +30,7 @@ jobs:
         git checkout gh-pages
         git merge master
         echo "* [首页](/README.md) " > navbar.md
-        find . -mindepth 2 -name "*.md" | awk -F'/' 'BEGIN {RS=".md"} {k=$3;if ($4=="" || $4=="README") k=$3;else k=$3"_"$3;arr[$2]=arr[$2]"\n    - ["k"]("$2"/"$3"/"$4")"} END { num = asorti(arr, indices); for (i=1; i<=num; ++i) if (indices[i]) print "- "indices[i], arr[indices[i]]}' >> navbar.md
+        find . -mindepth 2 -name "*.md" | awk -F'/' 'BEGIN {RS=".md"} {k=$3;if ($4=="" || $4=="README") k=$3;else k=$3"_"$4;arr[$2]=arr[$2]"\n    - ["k"]("$2"/"$3"/"$4")"} END { num = asorti(arr, indices); for (i=1; i<=num; ++i) if (indices[i]) print "- "indices[i], arr[indices[i]]}' >> navbar.md
 
     - name: Git Commit and Push
       uses: github-actions-x/commit@v2.6
