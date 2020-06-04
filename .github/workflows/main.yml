@@ -25,7 +25,7 @@ jobs:
     - name: Merge branch
       uses: devmasx/merge-branch@v1.1.0
       with:
-        target_branch: hg-pages
+        target_branch: gh-pages
 
     # Runs a single command using the runners shell
     - name: 修改bolg菜单
