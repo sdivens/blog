@@ -4,4 +4,4 @@
 **/.DS_Store
 .metals
 **/*.zip
-!docs/.nojekyll
+!.nojekyll
