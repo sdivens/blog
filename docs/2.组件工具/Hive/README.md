@@ -22,7 +22,6 @@ SET hive.compactor.worker.threads=1;
 # Note: Add these properties in hive-site.xml to set them permanently.
 ```
 
-<<<<<<< HEAD:2.组件/hive/README.md
 - > hive 中如何去正则匹配列  
 
 ``` bash
@@ -36,9 +35,3 @@ select `(name|id|pwd)?+.+` from tableName;
 set hive.execution.engine=spark;
 set spark.executor.memory=8g;
 ```
-=======
-# 设置spark的内存
-```bash
-set spark.executor.memory=8g;
-```
->>>>>>> daily:docs/2.组件工具/Hive/README.md
