@@ -38,5 +38,4 @@ jobs:
       uses: actions-go/push@v1
       with:
         commit-message: '动态生成navbar.md'
-        remote: 'refs/heads/gh-pages'
         
