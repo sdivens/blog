@@ -24,13 +24,19 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: 修改bolg菜单
-      run: find . -mindepth 2 -name "*.md" | awk -F'/' 'BEGIN {RS=".md"} {k=$3;if ($4=="" || $4=="README") k=$3;else k=$3"_"$3;arr[$2]=arr[$2]"\n    - ["k"]("$2"/"$3"/"$4")"} END { num = asorti(arr, indices); for (i=1; i<=num; ++i) if (indices[i]) print "- "indices[i], arr[indices[i]]}' > navbar.md
+      run: |
+        echo "* [首页](/README.md) " > navbar.md
+        find . -mindepth 2 -name "*.md" | awk -F'/' 'BEGIN {RS=".md"} {k=$3;if ($4=="" || $4=="README") k=$3;else k=$3"_"$3;arr[$2]=arr[$2]"\n    - ["k"]("$2"/"$3"/"$4")"} END { num = asorti(arr, indices); for (i=1; i<=num; ++i) if (indices[i]) print "- "indices[i], arr[indices[i]]}' >> navbar.md
 
     # Runs a set of commands using the runners shell
-    - name: 推送到新分支
+    - name: 查看生成文件
       run: |
         cat navbar.md
-        git checkout gh-pages
-        git add .
-        git commit -am "from master"
-        git push
+        echo "${{ github.ref }}"
+    
+    - name: Push changes
+      uses: actions-go/push@v1
+      with:
+        commit-message: '动态生成navbar.md'
+        remote: 'gh-pages'
+        
