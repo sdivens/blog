@@ -1,90 +1,98 @@
 ---
 # 1.编程语言 
-## Markdown
-  > [Markdown](1.编程语言/Markdown/)
-## Markdown_Mermaid
-  > [Markdown_Mermaid](1.编程语言/Markdown/Mermaid)
-## Go_Go基础内容
-  > [Go_Go基础内容](1.编程语言/Go/Go基础内容)
-## Java_核心技术36讲笔记
-  > [Java_核心技术36讲笔记](1.编程语言/Java/核心技术36讲笔记)
 ## Java_一些简明概念
   > [Java_一些简明概念](1.编程语言/Java/一些简明概念)
+## Java_核心技术36讲笔记
+  > [Java_核心技术36讲笔记](1.编程语言/Java/核心技术36讲笔记)
 ## Shell
   > [Shell](1.编程语言/Shell/)
+## Go_Go基础内容
+  > [Go_Go基础内容](1.编程语言/Go/Go基础内容)
 ## Scala
   > [Scala](1.编程语言/Scala/)
+## Markdown_Mermaid
+  > [Markdown_Mermaid](1.编程语言/Markdown/Mermaid)
+## Markdown
+  > [Markdown](1.编程语言/Markdown/)
 ---
 # 2.组件工具 
-## Git
-  > [Git](2.组件工具/Git/)
-## Postgres
-  > [Postgres](2.组件工具/Postgres/)
-## Sqoop
-  > [Sqoop](2.组件工具/Sqoop/)
-## Maven
-  > [Maven](2.组件工具/Maven/)
-## Dgraph
-  > [Dgraph](2.组件工具/Dgraph/)
-## docker
-  > [docker](2.组件工具/docker/)
-## Jenkins
-  > [Jenkins](2.组件工具/Jenkins/)
-## Hive
-  > [Hive](2.组件工具/Hive/)
-## Flink_Flink入门PPT_02
-  > [Flink_Flink入门PPT_02](2.组件工具/Flink/Flink入门PPT_02)
-## Flink_Flink入门PPT_01
-  > [Flink_Flink入门PPT_01](2.组件工具/Flink/Flink入门PPT_01)
-## Flink
-  > [Flink](2.组件工具/Flink/)
 ## Zookeeper
   > [Zookeeper](2.组件工具/Zookeeper/)
-## Mysql_SQL_case
-  > [Mysql_SQL_case](2.组件工具/Mysql/SQL_case)
 ## Mysql_mysql_db_design_guide
   > [Mysql_mysql_db_design_guide](2.组件工具/Mysql/mysql_db_design_guide)
+## Mysql_SQL_case
+  > [Mysql_SQL_case](2.组件工具/Mysql/SQL_case)
+## Git
+  > [Git](2.组件工具/Git/)
+## dgraph
+  > [dgraph](2.组件工具/dgraph/)
+## Flink_Flink入门PPT_02
+  > [Flink_Flink入门PPT_02](2.组件工具/Flink/Flink入门PPT_02)
+## Flink
+  > [Flink](2.组件工具/Flink/)
+## Flink_Flink入门PPT_01
+  > [Flink_Flink入门PPT_01](2.组件工具/Flink/Flink入门PPT_01)
+## Hive
+  > [Hive](2.组件工具/Hive/)
+## Sqoop
+  > [Sqoop](2.组件工具/Sqoop/)
+## ClickHouse
+  > [ClickHouse](2.组件工具/ClickHouse/)
+## docker
+  > [docker](2.组件工具/docker/)
+## Dgraph
+  > [Dgraph](2.组件工具/Dgraph/)
+## Postgres
+  > [Postgres](2.组件工具/Postgres/)
+## Maven
+  > [Maven](2.组件工具/Maven/)
+## Kafka_Kafka核心概念
+  > [Kafka_Kafka核心概念](2.组件工具/Kafka/Kafka核心概念)
 ## Kafka
   > [Kafka](2.组件工具/Kafka/)
+## Jenkins
+  > [Jenkins](2.组件工具/Jenkins/)
 ---
 # 3.Hacker 
 ## 关于数据_数仓建设指南
   > [关于数据_数仓建设指南](3.Hacker/关于数据/数仓建设指南)
 ## 关于数据
   > [关于数据](3.Hacker/关于数据/)
-## NLP实战高手课
-  > [NLP实战高手课](3.Hacker/NLP实战高手课/)
 ## 数据结构与算法
   > [数据结构与算法](3.Hacker/数据结构与算法/)
+## NLP实战高手课
+  > [NLP实战高手课](3.Hacker/NLP实战高手课/)
 ## 安全攻防技能_安全攻防技能
   > [安全攻防技能_安全攻防技能](3.Hacker/安全攻防技能/安全攻防技能)
 ## 安全攻防技能_HTTPS抓包
   > [安全攻防技能_HTTPS抓包](3.Hacker/安全攻防技能/HTTPS抓包)
-## 人工智能基础
-  > [人工智能基础](3.Hacker/人工智能基础)
 ## Windows进阶
   > [Windows进阶](3.Hacker/Windows进阶/)
+## 人工智能基础
+  > [人工智能基础](3.Hacker/人工智能基础)
 ---
 # 4.项目设计 
 ## 运维体系建设方案
   > [运维体系建设方案](4.项目设计/运维体系建设方案)
+## 高可用系统建设
+  > [高可用系统建设](4.项目设计/高可用系统建设)
 ## README
   > [README](4.项目设计/README)
 ---
 # 5.日常随笔 
-## 我喜欢炒股_财务分析与决策
-  > [我喜欢炒股_财务分析与决策](5.日常随笔/我喜欢炒股/财务分析与决策)
-## 我喜欢炒股_社交电商
-  > [我喜欢炒股_社交电商](5.日常随笔/我喜欢炒股/社交电商)
-## 我喜欢炒股
-  > [我喜欢炒股](5.日常随笔/我喜欢炒股/)
 ## 经典语录
   > [经典语录](5.日常随笔/经典语录)
-## 学习内容摘要_方式方法
-  > [学习内容摘要_方式方法](5.日常随笔/学习内容摘要/方式方法)
-## README
-  > [README](5.日常随笔/README)
 ## 健身的日常_哑铃自由器械动作
   > [健身的日常_哑铃自由器械动作](5.日常随笔/健身的日常/哑铃自由器械动作)
 ## 健身的日常
   > [健身的日常](5.日常随笔/健身的日常/)
+## 我喜欢炒股_社交电商
+  > [我喜欢炒股_社交电商](5.日常随笔/我喜欢炒股/社交电商)
+## 我喜欢炒股
+  > [我喜欢炒股](5.日常随笔/我喜欢炒股/)
+## 我喜欢炒股_财务分析与决策
+  > [我喜欢炒股_财务分析与决策](5.日常随笔/我喜欢炒股/财务分析与决策)
+## README
+  > [README](5.日常随笔/README)
+## 学习内容摘要_方式方法
+  > [学习内容摘要_方式方法](5.日常随笔/学习内容摘要/方式方法)
